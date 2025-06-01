@@ -1,0 +1,202 @@
+body {
+	font-family:Arial;
+	margin-top:5px;
+}
+
+.title {
+	background:LightGrey none repeat scroll 0 0;
+	color:white;
+	font-weight:bold;
+	padding-left:8px;
+	margin-left:-8px;
+	margin-right:-8px;
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+.caption {
+	color:dimgray;
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.caption_MD {
+	color:silver;
+	font-weight:bold;
+	font-size:15px;
+	margin:10px;
+	text-align:center;
+}
+
+.dataTitle {
+	background:LightSteelBlue;
+	line-height:1px;
+	margin-bottom:10px;
+	margin-top:20px;
+	text-align:left;
+}
+.dataTitleText {
+	background:#EEE;
+	left:7px;
+	padding-left:8px;
+	padding-right:8px;
+	position:relative;
+	top:-3px;
+	color:SteelBlue;
+}
+
+.field {
+	padding-top:2px;
+	white-space: nowrap;
+}
+.fieldName {
+	padding-left:10px;
+}
+.fieldValue	{
+	background-color:white;
+	border:1px solid #DDD;
+	float:right;
+	margin-right:10px;
+	margin-top:-16px;
+	padding-right:2px;
+	width:40px;
+	text-align:right;
+}
+.fieldValueChrome {
+    margin-top:0px;
+}
+
+.pane	{
+	background-color:#EEE;
+	margin-bottom:8px;
+	font-size:12px;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.pane_login {
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-image:url('../img/ACC Bubbles.png');
+	width:422px;height:269px;
+}
+.pane_right {
+	position:absolute;
+	right:0px;
+	margin-right:10px;
+}
+
+.pane_top {
+	position:absolute;
+	top:5px;
+}
+
+.pane_bottom {
+	position:absolute;
+	bottom:0px;
+	margin-bottom:23px;
+}
+
+@-moz-document url-prefix() {
+.pane_bottom {
+	margin-bottom:40px;
+}
+}
+
+.paneTitle {
+	background-color:LightSteelBlue;
+	color:navy;
+	font-weight:bold;
+	text-align:center;
+}
+.paneSubTitle {
+	background-color:LightGrey;
+	color:SteelBlue;
+	margin-left:3px;
+	margin-right:3px;
+	margin-bottom:5px;
+}
+
+.dataTable {
+	background-color:Snow;
+	font-size:12px;
+	border:1px solid white;
+	border-collapse:collapse;
+}
+
+.dataTable_MD {
+	background-color:Snow;
+	font-size:20px;
+	border:1px solid white;
+	border-collapse:collapse;
+}
+
+.dataTableHeader {
+        position: sticky;
+        top: -2px;
+	background-color:LightSteelBlue;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+	border-bottom:1px solid Gray;
+}
+
+.dataTableHeader_MD {
+        position: sticky;
+        top: -2px;
+	background-color:LightSteelBlue;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+	border-bottom:1px solid Gray;
+}
+
+.dataTableRow {
+	border-bottom:1px solid Lavender;
+}
+
+
+.objSelectBtn {
+	border-bottom: 1px solid gray;
+	font-size: 13px;
+	color: navy;
+}
+
+.rowOdd {
+	background-color:GhostWhite;
+}
+
+.winMenu {
+	border:1px solid LightSlateGray;
+	border-top:1px solid DarkRed;
+	border-left:1px solid LightSteelBlue;
+	background-color:white;
+	z-index:999;
+}
+
+.editFields {
+	font-weight:normal;
+	background-color:#ddd;
+}
+
+.activityLink {
+	text-decoration:none;
+	color: black;
+	/*font-weight:bold;*/
+	font-size:13px;
+	line-height:18px;
+	padding-left:8px;
+	display:inline-block;
+	display:-moz-inline-block;
+	width:95%;
+}
+
+.meduimSize{
+        font-size:115%;
+}
+.bigSize{
+        font-size:130%;
+}

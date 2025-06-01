@@ -1,0 +1,168 @@
+.nlaWindow {
+	background:white url(../img/resize.png) no-repeat bottom right;
+	border-bottom:2px solid LightSlateGray;
+	border-left:1px solid LightSlateGray;
+	border-right:1px solid LightSlateGray;
+}
+
+.nlaWindowResizeCorner {
+	cursor:se-resize;
+	position:absolute;
+        bottom: 0;
+        right: 0;
+	width:2%;
+	-moz-user-select: none;
+        
+}
+
+.workspaceLayer {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:lightGrey;
+	z-index:99999;
+	opacity:0;
+	filter:alpha(opacity=0);
+	display:none;
+	-moz-user-select: none;
+}
+
+.nlaWindowCaption {
+	top:-10px;
+	position:relative;
+	background: LightSlateGray url(../img/ne.png) no-repeat top right;
+	width: 100%;
+	border-bottom: 1px solid DarkGray;
+	color:white;
+	font-family:Tahoma;
+	font-size: 10px;
+	/*font-family:Arial;
+	font-size: 11px;*/
+	font-weight:bold;
+	/*font-variant:small-caps;*/
+}
+
+.closeBtn {
+	background: url(../img/nw.png) no-repeat top left;
+	padding-left:5px;
+	color:GoldenRod;
+	font: bold small cursive;
+	font-variant:normal;
+	cursor:pointer;
+	-moz-user-select: none;
+}
+
+.navTab {
+	background-color:lightGrey;
+	/*border: 1px solid silver;
+	border-bottom: 1px solid white;*/
+	padding:1px;
+	padding-left:8px;
+	padding-right:8px;
+	margin-left:-1px;
+	font-size:13px;
+	cursor:pointer;
+}
+
+.navActiveTab {
+	background-color:white;
+	border-bottom-width:0px;
+	font-weight:bold;
+}
+
+.closeBtn2 {
+	position:relative;
+	left:5px;
+	top:-3px;
+	color:GoldenRod;
+	font: bold small cursive;
+	font-variant:normal;
+	cursor:pointer;
+	line-height:0;
+}
+
+.closeBtn3 {
+	font-size: 10px;
+	float:right;
+	position: relative; left:-10px; top:2px;
+	color: silver;
+	cursor: pointer;
+}
+
+.closeBtnPos {
+	color: LightSteelBlue;
+	position:absolute;
+	left:-3px;
+	top:-5px;
+}
+
+html>body .closeBtnPos {
+	position:fixed;
+}
+
+.toolsBody {
+	background-color:#f9f9f9;
+	margin:0;
+	font-family:Arial;
+	font-size:13px;
+}
+.meduimSize{
+        font-size:115%;
+}
+.bigSize{
+        font-size:130%;
+}
+
+
+.tabName {
+	background-color:#ededd5;
+	border:1px solid #ededd5;
+	border-top-color:white;
+	border-bottom-color:lightGrey;
+	color:#666;
+	cursor:pointer;
+	padding-left:3px;
+}
+.tabNameSelected {
+	background-color:Beige;
+	border:1px solid Beige;
+	border-top-color:white;
+	border-bottom-color:PaleGoldenRod;
+	color:#555;
+	cursor:pointer;
+	padding-left:3px;
+	margin-bottom:1px;
+}
+
+.tabReport {
+	background:url(../img/report.png) no-repeat scroll 14px 1px;
+}
+.tabReport2 {
+	background:url(../img/graph.png) no-repeat scroll 14px 1px;
+}
+.tabTemplate {
+	background:url(../img/template.png) no-repeat scroll 14px 1px;
+}
+.custTemplate {
+	background:url(../img/ctemplate.png) no-repeat scroll 14px 1px;
+	font-style:italic;
+}
+.tabItem {
+	color:DarkSlateGray;
+	cursor:pointer;
+	padding-left:35px;
+	padding-bottom:3px;
+	border-left:1px dotted PaleGoldenRod;
+	border-right:1px dotted PaleGoldenRod;
+}
+
+.tabGroup {
+	display:inline;
+}
+
+.drag {
+	position:relative;
+	cursor:move;
+}

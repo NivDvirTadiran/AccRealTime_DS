@@ -1,0 +1,33 @@
+tadiran.admin.ACCServerAddress1= %ACC_IP1%
+tadiran.admin.ACCServerAddress2= %ACC_IP2%
+tadiran.admin.ACCServerPort1= 9275
+tadiran.admin.ACCServerPort2= 9275
+tadiran.admin.ACCWEBServers= %ACC_WEB_SERVERS_URLS%
+tadiran.admin.accVersion= %VERSION%
+tadiran.admin.IsAuthTokenFilterOn= %APP_CENTER_STATUS%
+spring.datasource.url= jdbc:mysql://localhost:3308/ecc?useSSL=true&zeroDateTimeBehavior=convertToNull
+# 10.3.1.20
+spring.datasource.userName= ecc
+spring.datasource.password= !A_C_C-c0d8
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQLDialect
+
+spring.jpa.hibernate.ddl-auto= none
+
+
+
+# Spring Datasource, Spring Data...
+# App Properties
+tadiran.admin.jwtCookieName=tadirantele
+tadiran.admin.jwtSecret= e1996-secret-key
+tadiran.admin.local.jwtSecret= ==================some=local=secret=key=========================
+
+tadiran.admin.local.jwtCookieExpirationMin= 20
+# 1,200,000[Ms] = 20[min]
+tadiran.admin.timeDurationBeforeDetachUnusedLicense= 20
+
+# Log to File
+logging.file=/opt/accwebapps/logs/accRealTime.log
+
+
+
+server.port=8445

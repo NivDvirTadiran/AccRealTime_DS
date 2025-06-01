@@ -1,0 +1,60 @@
+.toolsBody {
+	background-color:#f9f9f9;
+	margin:0;
+	font-family:Arial;
+	font-size:80px;
+}
+
+.toolName {
+	background-color: LightSlateGray;
+	font-weight:bold;
+	text-align:center;
+}
+
+.tabName {
+	background-color:#ededd5;
+	border:1px solid #ededd5;
+	border-top-color:white;
+	border-bottom-color:lightGrey;
+	color:#666;
+	cursor:pointer;
+	padding-left:3px;
+}
+.tabNameSelected {
+	background-color:Beige;
+	border:1px solid Beige;
+	border-top-color:white;
+	border-bottom-color:PaleGoldenRod;
+	color:#555;
+	cursor:pointer;
+	padding-left:3px;
+	margin-bottom:1px;
+}
+
+.tabReport {
+	background:url(../img/report.png) no-repeat scroll 14px 1px;
+}
+.tabReport2 {
+	background:url(../img/graph.png) no-repeat scroll 14px 1px;
+}
+.tabTemplate {
+	background:url(../img/template.png) no-repeat scroll 14px 1px;
+}
+.tabItem {
+	color:DarkSlateGray;
+	cursor:pointer;
+	padding-left:35px;
+	padding-bottom:3px;
+	border-left:1px dotted PaleGoldenRod;
+	border-right:1px dotted PaleGoldenRod;
+}
+
+.tabGroup {
+	display:inline;
+}
+.meduimSize{
+        font-size:115%;
+}
+.bigSize{
+        font-size:130%;
+}
